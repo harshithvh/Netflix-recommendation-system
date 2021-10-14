@@ -13,4 +13,27 @@ Recommendation algorithms are at the core of the Netflix product. It provides th
 
 ---
 
+The categories under "Trending Now" and "New Releases" are Non-Personalized Recommendation System
+The categories under "Because you watched" are Personalized Recommendation System
+
 <img align="left" alt="Visual Studio Code" width="1080px" src="https://cdn-images-1.medium.com/max/1600/0*baj8e-s1v5hJRm6A." />
+
+# NLP
+
+---
+
+Natural language processing is a subfield of linguistics, computer science, and artificial intelligence concerned with the interactions between computers and human language, in particular how to program computers to process and analyze large amounts of natural language data.
+
+<img align="left" alt="Visual Studio Code" width="1080px" src="https://cdn.searchenginejournal.com/wp-content/uploads/2020/08/an-introduction-to-natural-language-processing-with-python-for-seos-5f3519eeb8368.png" />
+
+# #1 Tokenization
+
+---
+
+Tokenization is the process of breaking down sentence or paragraphs into smaller chunks of words called tokens.
+
+# #2 Stop Words Removal
+
+---
+
+On removal of some words, the meaning of the sentence doesn't change, like and, am. Those words are called stop-words and should be removed before feeding to any algorithm. In datasets, some non-stop words repeat very frequently. Those words too should be removed to get an unbiased result from the algorithm.
