@@ -14,6 +14,7 @@ Recommendation algorithms are at the core of the Netflix product. It provides th
 ---
 
 The categories under "Trending Now" and "New Releases" are Non-Personalized Recommendation System
+<br />
 The categories under "Because you watched" are Personalized Recommendation System
 
 <img align="left" alt="Visual Studio Code" width="1080px" src="https://cdn-images-1.medium.com/max/1600/0*baj8e-s1v5hJRm6A." />
@@ -37,3 +38,9 @@ Tokenization is the process of breaking down sentence or paragraphs into smaller
 ---
 
 On removal of some words, the meaning of the sentence doesn't change, like and, am. Those words are called stop-words and should be removed before feeding to any algorithm. In datasets, some non-stop words repeat very frequently. Those words too should be removed to get an unbiased result from the algorithm.
+
+# #3 Vectorization
+
+---
+
+After tokenization, and stop words removal, our "content" are still in string format. We need to convert those strings to numbers based on their importance (features). We use TF-IDF vectorization to convert those text to vector of importance. With TF-IDF we can extract important words in our data. It assign rarely occurring words a high number, and frequently occurring words a very low number.
