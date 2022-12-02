@@ -45,6 +45,12 @@ On removal of some words, the meaning of the sentence doesn't change, like and, 
 
 After tokenization, and stop words removal, our "content" are still in string format. We need to convert those strings to numbers based on their importance (features). We use TF-IDF vectorization to convert those text to vector of importance. With TF-IDF we can extract important words in our data. It assign rarely occurring words a high number, and frequently occurring words a very low number.
 
+## Sources 
+* https://www.netflixprize.com/rules.html
+* https://www.kaggle.com/netflix-inc/netflix-prize-data
+* Netflix blog: https://medium.com/netflix-techblog/netflix-recommendations-beyond-the-5-stars-part-1-55838468f429 (very nice blog)
+* Research paper: http://courses.ischool.berkeley.edu/i290-dm/s11/SECURE/a1-koren.pdf 
+
 ## Type of Data:
 * There are 17770 unique movie IDs.
 * There are 480189 unique user IDs.
