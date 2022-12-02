@@ -44,3 +44,16 @@ On removal of some words, the meaning of the sentence doesn't change, like and, 
 ---
 
 After tokenization, and stop words removal, our "content" are still in string format. We need to convert those strings to numbers based on their importance (features). We use TF-IDF vectorization to convert those text to vector of importance. With TF-IDF we can extract important words in our data. It assign rarely occurring words a high number, and frequently occurring words a very low number.
+
+## Type of Data:
+* There are 17770 unique movie IDs.
+* There are 480189 unique user IDs.
+* There are ratings. Ratings are on a five star (integral) scale from 1 to 5.
+* There is a date on which the movie is watched by the user in the format YYYY-MM-DD.
+
+## Built With
+*	ipython-notebook - Python Text Editor
+*	sklearn - Machine learning library
+*	seaborn, matplotlib.pyplot, - Visualization libraries
+*	numpy, scipy- number python library
+*	pandas - data handling library
