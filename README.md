@@ -80,12 +80,6 @@ In this project, we worked on a text clustering problem wherein we had to classi
 * https://www.kaggle.com/datasets/sambhajizambre/netflix-movies-and-tv-shows-clustering?select=netflix_titles.csv
 * Netflix blog: https://medium.com/netflix-techblog/netflix-recommendations-beyond-the-5-stars-part-1-55838468f429 (very nice blog)
 
-## Type of Data:
-* There are 17770 unique movie IDs.
-* There are 480189 unique user IDs.
-* There are ratings. Ratings are on a five star (integral) scale from 1 to 5.
-* There is a date on which the movie is watched by the user in the format YYYY-MM-DD.
-
 ## Built With
 *	ipython-notebook - Python Text Editor
 *	sklearn - Machine learning library
